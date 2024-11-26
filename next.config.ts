@@ -1,19 +1,9 @@
-import type { NextConfig } from "next";
+import withMDX from '@next/mdx';
 
-const nextConfig: NextConfig = {
-  /* config options here */
-};
-
-const withMDX = require('@next/mdx')({
-    extension: /\.mdx?$/,
+const nextConfig = withMDX()({
+    // MDX dışında diğer uzantılar
+    pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'],
+    reactStrictMode: true, // React hata ayıklama modu
 });
-
-module.exports = withMDX({
-    pageExtensions: ['ts', 'tsx', 'js', 'jsx', 'md', 'mdx'], // MDX uzantılarını ekleyin
-    experimental: {
-        appDir: true, // App Router kullanımı için etkinleştirin
-    },
-});
-
 
 export default nextConfig;
