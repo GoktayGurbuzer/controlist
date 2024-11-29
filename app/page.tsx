@@ -14,12 +14,12 @@ export default function Home() {
                                            src="/images/banner-single-img.png" alt="image"/> <br/> Bizim Önceliğimiz!
                       </h2>
                     </div>
-                    <div className="hero-desc d-flex .res-1199-pl-15">
+                    <div className="hero-desc d-flex">
                       <div className="hero-btn">
                         <a href="/hizmetlerimiz/kalite-kontrol-servisi"> Keşfedin</a>
                       </div>
                       <div className="hero-text">
-                        <p style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2);" }}>Modern üretim süreçleri ve sürdürülebilir çözümlerle müşterilerimize üstün kalite kontrol hizmetleri sunuyoruz. Tekstil sektöründe global standartlara uygun denetim ve tedarik zinciri yönetimi ile yanınızdayız.</p>
+                        <p style={{ textShadow: "1px 1px 6px rgb(255 255 255 / 80%)", fontSize: "1.2rem" }}>Modern üretim süreçleri ve sürdürülebilir çözümlerle müşterilerimize üstün kalite kontrol hizmetleri sunuyoruz. Tekstil sektöründe global standartlara uygun denetim ve tedarik zinciri yönetimi ile yanınızdayız.</p>
                       </div>
                     </div>
                   </div>

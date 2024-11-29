@@ -6,7 +6,7 @@ export default function Header() {
                     <div className="container-fluid">
                         <div className="row header-row">
                             <div className="col-lg-12 p-0">
-                                <div className="site-navigation d-flex align-items-center justify-content-between">
+                                <div className="site-navigation d-flex align-items-center justify-content-around">
                                     <div className="site-branding-wrap">
                                         <div className="site-branding">
                                             <h1><a className="home-link" href="/" title="Fablio" rel="home">
@@ -19,9 +19,9 @@ export default function Header() {
                                     <div className="sitemenu-main d-flex align-items-center justify-content-between">
                                         <div className="menu-link">
                                             <div className="btn-show-menu-mobile menubar menubar--squeeze">
-                                                    <span className="menubar-box">
-                                                        <span className="menubar-inner"></span>
-                                                    </span>
+                                                <span className="menubar-box">
+                                                    <span className="menubar-inner"></span>
+                                                </span>
                                             </div>
                                             <nav className="main-menu menu-mobile" id="menu">
                                                 <ul className="menu">
@@ -33,14 +33,18 @@ export default function Header() {
                                                     <li className="mega-menu-item">
                                                         <a href="#" className="mega-menu-link">Hizmetlerimiz</a>
                                                         <ul className="mega-submenu">
-                                                            <li><a href="/hizmetlerimiz/kalite-kontrol-servisi">Kalite Kontrol Servisi</a></li>
-                                                            <li><a href="/hizmetlerimiz/acente-servisi">Acente Servisi</a></li>
+                                                            <li><a href="/hizmetlerimiz/kalite-kontrol-servisi">Kalite
+                                                                Kontrol Servisi</a></li>
+                                                            <li><a href="/hizmetlerimiz/acente-servisi">Acente
+                                                                Servisi</a></li>
                                                         </ul>
                                                     </li>
+
                                                     <li className="mega-menu-item">
                                                         <a href="/blog" className="mega-menu-link">Blog</a>
                                                     </li>
                                                     <li className="mega-menu-item"><a href="/iletisim">İletişim</a></li>
+
                                                 </ul>
                                             </nav>
                                         </div>
@@ -50,7 +54,8 @@ export default function Header() {
                                                     <i className="flaticon flaticon-email-2"></i>
                                                 </div>
                                                 <div>
-                                                    <a href="tel:+902124654099" className="hotline-link"> +90 (212) 465 40 99</a><br/>
+                                                    <a href="tel:+902124654099" className="hotline-link"> +90 (212) 465
+                                                        40 99</a><br/>
                                                     <a href="mailto:info@example.com"
                                                        className="hotline-link"> levent@control-ist.com</a>
                                                 </div>
@@ -60,6 +65,20 @@ export default function Header() {
                                                 <a className="prt-btn prt-btn-size-md prt-btn-shape-rounded prt-btn-style-border"
                                                    href="/iletisim">Bize Ulaş</a>
                                             </div>
+                                        </div>
+                                        <div className="menu-link">
+                                            <nav className="main-menu" id="menu">
+                                                <ul className="menu">
+                                                    <li className="mega-menu-item">
+                                                        <a href="#" className="mega-menu-link"><img src="/images/language.png" alt="" height={40}/></a>
+                                                        <ul className="mega-submenu" style={{ width: "90px"}}>
+                                                            <li><a href="#"><img src="/images/turkiye.png" height={40} alt=""/></a></li>
+                                                            <li><a href="#"><img src="/images/us.png" height={40} alt=""/></a></li>
+                                                            <li><a href="#"><img src="/images/germany.png" height={40} alt=""/></a></li>
+                                                        </ul>
+                                                    </li>
+                                                </ul>
+                                            </nav>
                                         </div>
                                     </div>
                                 </div>
