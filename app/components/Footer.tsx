@@ -15,7 +15,7 @@ export default function Footer() {
                                              alt="image"/>
                                     </div>
                                     <div className="footer-btn">
-                                        <a className="prt-btn prt-btn-size-md prt-btn-shape-rounded prt-btn-style-border prt-btn-color-white"
+                                        <a className="prt-btn prt-btn-size-md prt-btn-shape-rounded prt-btn-style-border"
                                            href="/iletisim">İletişime Geç</a>
                                     </div>
                                 </div>
@@ -32,7 +32,8 @@ export default function Footer() {
                                     <ul className="menu-footer-link">
                                         <li><a href="/">Anasayfa</a></li>
                                         <li><a href="/hakkimizda">Hakkımızda</a></li>
-                                        <li><a href="/hizmetlerimiz/kalite-kontrol-servisi">Kalite Kontrol Servisi</a></li>
+                                        <li><a href="/hizmetlerimiz/kalite-kontrol-servisi">Kalite Kontrol Servisi</a>
+                                        </li>
                                         <li><a href="/hizmetlerimiz/acente-servisi">Acente Servisi</a></li>
                                         <li><a href="/blog">Haberler</a></li>
                                         <li><a href="/iletisim">İletişim</a></li>
@@ -47,12 +48,16 @@ export default function Footer() {
                                                className="footer-social-icons-link">Ara Kontrol</a></li>
                                         <li><a href="/hizmetlerimiz/kalite-kontrol-servisi/son-kontrol" target="_blank"
                                                className="footer-social-icons-link">Son Kontrol</a></li>
-                                        <li><a href="/hizmetlerimiz/kalite-kontrol-servisi/denetleme-hizmetleri" target="_blank"
+                                        <li><a href="/hizmetlerimiz/kalite-kontrol-servisi/denetleme-hizmetleri"
+                                               target="_blank"
                                                className="footer-social-icons-link">Denetleme Hizmetleri</a></li>
-                                        <li><a href="/hizmetlerimiz/kalite-kontrol-servisi/uretici-egitimi" target="_blank"
+                                        <li><a href="/hizmetlerimiz/kalite-kontrol-servisi/uretici-egitimi"
+                                               target="_blank"
                                                className="footer-social-icons-link">Üretici Eğitimi</a></li>
-                                        <li><a href="/hizmetlerimiz/kalite-kontrol-servisi/lojistik-compliance-servisleri" target="_blank"
-                                               className="footer-social-icons-link">Lojistik Compliance Servisleri</a></li>
+                                        <li><a
+                                            href="/hizmetlerimiz/kalite-kontrol-servisi/lojistik-compliance-servisleri"
+                                            target="_blank"
+                                            className="footer-social-icons-link">Lojistik Compliance Servisleri</a></li>
                                         <li><a href="/hizmetlerimiz/acente-servisi/kaynak-yonetimi" target="_blank"
                                                className="footer-social-icons-link">Kaynak Yönetimi</a></li>
                                         <li><a href="/hizmetlerimiz/acente-servisi/siparis-yonetimi" target="_blank"
@@ -68,7 +73,8 @@ export default function Footer() {
                                         <div className="mailchimp-inputbox clearfix" id="subscribe-content">
                                             <div className="prt-contact-link-icon d-flex">
                                                 <i className="flaticon flaticon-email-1"></i>
-                                                <p><input type="email" name="email" placeholder="E-posta adresinizi girin" required/>
+                                                <p><input type="email" name="email"
+                                                          placeholder="E-posta adresinizi girin" required/>
                                                 </p>
                                             </div>
                                             <a href="mailto:info@control-ist.com"
@@ -91,7 +97,8 @@ export default function Footer() {
                                                  src="/images/footer-img-01.jpg" loading="lazy" alt="image"/>
                                         </div>
                                         <div className="widget widget_text-content footer-widget-box">
-                                            <h3><a href="blog-detail.html">Global kalite standartlarında son yenilikler ve uygulamalar</a></h3>
+                                            <h3><a href="blog-detail.html">Global kalite standartlarında son yenilikler
+                                                ve uygulamalar</a></h3>
                                             <p>Kasım 15, 2024</p>
                                         </div>
                                     </div>
@@ -101,7 +108,8 @@ export default function Footer() {
                                                  src="/images/footer-img-02.jpg" loading="lazy" alt="image"/>
                                         </div>
                                         <div className="widget widget_text-content footer-widget-box">
-                                            <h3><a href="blog-detail.html">Etkili tedarik zinciri yönetimi için ipuçları</a></h3>
+                                            <h3><a href="blog-detail.html">Etkili tedarik zinciri yönetimi için
+                                                ipuçları</a></h3>
                                             <p>Mart 13, 2024</p>
                                         </div>
                                     </div>
@@ -116,8 +124,9 @@ export default function Footer() {
                             <div className="col-lg-12">
                                 <div className="copyright">
                                     <div className="cpy-text">
-                                        <p className="mb-0">Copyright © 2024 Controlist. Tüm hakları saklıdır. Powered by <a target="_blank"
-                                                                           href="https://ketcap.com">Ketçap Agency</a></p>
+                                        <p className="mb-0">Copyright © 2024 Controlist. Tüm hakları saklıdır. Powered
+                                            by <a target="_blank"
+                                                  href="https://ketcap.com">Ketçap Agency</a></p>
                                     </div>
                                     <ul className="prt-list footer-nav-menu">
                                         <li><a href="#">Şartlar ve koşullar</a></li>

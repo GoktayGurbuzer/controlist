@@ -119,7 +119,7 @@
 	/* header */
 	.prt-stickable-header.fixed-header {
 		z-index: 4;
-		background-color: var(--base-dark);
+		background-color: var(--base-black);
 		box-shadow: 0 13px 16px 7px rgba(83 20 173 / 0.07);
 	}
 	.fixed-header {
@@ -333,7 +333,7 @@
 			position: absolute;
 	    left: 0;
 	    right: 0;
-	    background-color: transparent;
+	    background-color: #FFF;
 	    z-index: 2;
 	    padding: 0 15px;
 	}

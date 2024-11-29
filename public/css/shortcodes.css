@@ -123,7 +123,6 @@
     z-index: 1;
     height: 100%;
     width: 100%;
-    background-image: url(../images/pattern-bg.png); 
 }
 
 .bg-layer { position: relative; }
@@ -1391,15 +1390,17 @@ section { counter-reset:container}
 .featured-icon-box.style4 .prt-icon.prt-icon_element-size-lg i {
     font-size: 34px;
     line-height: 24px;
+
 }
 .featured-icon-box.style4 .featured-title h4{
     font-size: 28px;
     line-height: 38px;
     margin-bottom: 10px;
 }
-.featured-title h3,.featured-desc h4{
-    color: var(--base-white);
+.featured-title h3,.featured-desc h4, .featured-desc p {
+    color: var(--base-black);
 }
+
 .featured-desc h4{
     font-size: 30px;
     line-height: 40px;
@@ -3001,7 +3002,7 @@ ul.contact-widget-wrapper li {
     -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     font-family: var(--base-headingfont);
-    color: var(--base-black);
+    color: var(--base-white);
     font-size: 20px;
     line-height: 30px;
     font-weight: 500;
@@ -3057,7 +3058,7 @@ ul.contact-widget-wrapper li {
     padding-left:80px;
 }
 .section-title-img img{margin-bottom: 22px;padding-right: 20px;}
-.section-title-img a{color: var(--base-white) ;
+.section-title-img a{color: var(--base-black) ;
     font-size: 60px;line-height: 70px;}
 .section-title-img a:hover{color: var(--base-skin);}
 /*about-section*/
@@ -3094,16 +3095,16 @@ background-color: var(--skin);
 }
 .hero-content-wrap{padding: 75px 0;}
 .hero-content-wrap .hero-title h2{
-    font-size: 146px;
+    font-size: 120px;
     line-height: 155px;
-    color: rgb(255,255,255);
+    color: var(--base-bodyfont-color);
 }
 .hero-feac h2 a{
-    color: var(--whie);
+    color: var(--base-bodyfont-color);
     text-decoration: none;
 }
 .hero-text p {
-    color: rgba(255, 255, 255, .8);
+    color: var(--base-bodyfont-color);
     padding: 35px 270px 35px 35px;
     text-align: left;
 }
@@ -3336,7 +3337,7 @@ ul.img-box-content li.img-box-wrap .img-box-desc .content-wrapper .content-wrapp
 .featured-content i{
     font-size: 50px;
     text-align: center;
-    color: var(--base-white);
+    color: var(--base-black);
     margin-top: 8px;
     margin-right: 12px;
 }
@@ -3578,7 +3579,7 @@ ul.social-media li{
     line-height: 38px;
     position: relative;
     transition: all 0.3s ease;
-    color: var(--base-white) !important;
+    color: var(--base-black) !important;
 }
 .prt-post-item-inner:hover img{
         transform: translateX(-20px);
@@ -3766,7 +3767,7 @@ ul.team-member-feac {
     font-size: 25px;
     line-height: 40px;
     font-weight: 500;
-    color: var(--base-black);
+    color: var(--base-white);
     padding: 5px 0 20px 0;
     display: block;
     transition: all 0.3s ease;

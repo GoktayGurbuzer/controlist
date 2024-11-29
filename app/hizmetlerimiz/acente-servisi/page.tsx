@@ -1,5 +1,5 @@
 export default function KaliteKontrolServisi() {
-    return(
+    return (
         <>
             <div className="prt-page-title-row">
                 <div className="prt-page-title-row-inner">
@@ -36,10 +36,14 @@ export default function KaliteKontrolServisi() {
                                                     </div>
                                                     <div className="prt-box-feac">
                                                         <div className="prt-box-desc">
-                                                            <p>Tedarik zincirinizdeki kaynakların etkin ve verimli bir şekilde kullanılmasını sağlıyoruz. Süreçleri optimize ederek, maliyetleri düşürürken operasyonel verimliliğinizi artırıyoruz. </p>
+                                                            <p>Tedarik zincirinizdeki kaynakların etkin ve verimli bir
+                                                                şekilde kullanılmasını sağlıyoruz. Süreçleri optimize
+                                                                ederek, maliyetleri düşürürken operasyonel
+                                                                verimliliğinizi artırıyoruz. </p>
                                                         </div>
 
-                                                        <a className="prt-portfolio-box-btn" href="/hizmetlerimiz/acente-servisi/kaynak-yonetimi"
+                                                        <a className="prt-portfolio-box-btn"
+                                                           href="/hizmetlerimiz/acente-servisi/kaynak-yonetimi"
                                                            target="_self"></a>
 
                                                     </div>
@@ -66,10 +70,14 @@ export default function KaliteKontrolServisi() {
                                                     </div>
                                                     <div className="prt-box-feac">
                                                         <div className="prt-box-desc">
-                                                            <p>Sipariş süreçlerinizi baştan sona profesyonel bir şekilde yönetiyoruz. Doğru ürünün, doğru zamanda ve doğru şekilde teslim edilmesini sağlayarak, müşteri memnuniyetinizi en üst seviyeye taşıyoruz. </p>
+                                                            <p>Sipariş süreçlerinizi baştan sona profesyonel bir şekilde
+                                                                yönetiyoruz. Doğru ürünün, doğru zamanda ve doğru
+                                                                şekilde teslim edilmesini sağlayarak, müşteri
+                                                                memnuniyetinizi en üst seviyeye taşıyoruz. </p>
                                                         </div>
 
-                                                        <a className="prt-portfolio-box-btn" href="/hizmetlerimiz/acente-servisi/siparis-yonetimi"
+                                                        <a className="prt-portfolio-box-btn"
+                                                           href="/hizmetlerimiz/acente-servisi/siparis-yonetimi"
                                                            target="_self"></a>
 
                                                     </div>

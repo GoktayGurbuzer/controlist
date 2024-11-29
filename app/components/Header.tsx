@@ -1,7 +1,7 @@
 export default function Header() {
     return (
         <header id="masthead" className="header prt-header-style-01">
-            <div id="site-header-menu" className="site-header-menu" style={{ backgroundColor: '#060616'}}>
+            <div id="site-header-menu" className="site-header-menu" style={{ backgroundColor: '#fff'}}>
                 <div className="site-header-menu-inner prt-stickable-header">
                     <div className="container-fluid">
                         <div className="row header-row">
@@ -57,7 +57,7 @@ export default function Header() {
 
                                             </div>
                                             <div className="header-btn">
-                                                <a className="prt-btn prt-btn-size-md prt-btn-shape-rounded prt-btn-style-border prt-btn-color-white"
+                                                <a className="prt-btn prt-btn-size-md prt-btn-shape-rounded prt-btn-style-border"
                                                    href="/iletisim">Bize Ulaş</a>
                                             </div>
                                         </div>

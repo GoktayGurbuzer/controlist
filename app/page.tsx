@@ -19,7 +19,7 @@ export default function Home() {
                         <a href="/hizmetlerimiz/kalite-kontrol-servisi"> Keşfedin</a>
                       </div>
                       <div className="hero-text">
-                        <p>Modern üretim süreçleri ve sürdürülebilir çözümlerle müşterilerimize üstün kalite kontrol hizmetleri sunuyoruz. Tekstil sektöründe global standartlara uygun denetim ve tedarik zinciri yönetimi ile yanınızdayız.</p>
+                        <p style={{ textShadow: "2px 2px 4px rgba(0, 0, 0, 0.2);" }}>Modern üretim süreçleri ve sürdürülebilir çözümlerle müşterilerimize üstün kalite kontrol hizmetleri sunuyoruz. Tekstil sektöründe global standartlara uygun denetim ve tedarik zinciri yönetimi ile yanınızdayız.</p>
                       </div>
                     </div>
                   </div>
@@ -84,10 +84,11 @@ export default function Home() {
                 </div>
               </div>
               <div className="row">
-                <div className="col-lg-12 col-md-12">
+                <div className="col-sm-12 col-md-6">
                   <div className="service-box">
                     <ul className="img-box-content">
-                      <li className="img-box-wrap">
+                      <li className="img-box-wrap"
+                          style={{backgroundColor: '#BEBFC5', borderRadius: '10px', marginBottom: '10px'}}>
                         <div className="service-img">
                           <img height={618} width={673} className="img-fluid" src="/images/services/service-img-01.jpg"
                                alt="image"/>
@@ -95,12 +96,15 @@ export default function Home() {
                         <div className="img-box-heading-content">
                           <div className="img-box-heading">
                             <h4 className="img-box-title">
-                              <a className="more-link" href="/hizmetlerimiz/kalite-kontrol-servisi">Kalite Kontrol Servisi</a>
+                              <a className="more-link" href="/hizmetlerimiz/kalite-kontrol-servisi">Kalite Kontrol
+                                Servisi</a>
                             </h4>
                           </div>
                           <div className="img-box-desc">
                             <div className="content-wrapper">
-                              <p>Ürünlerinizin üretim sürecinden teslimatına kadar kalite standartlarına uygunluğunu denetliyoruz. Modern ekipmanlarımız ve deneyimli uzmanlarımızla, üretim süreçlerinizi daha güvenilir ve verimli hale getiriyoruz.</p>
+                              <p>Ürünlerinizin üretim sürecinden teslimatına kadar kalite standartlarına uygunluğunu
+                                denetliyoruz. Modern ekipmanlarımız ve deneyimli uzmanlarımızla, üretim süreçlerinizi
+                                daha güvenilir ve verimli hale getiriyoruz.</p>
                             </div>
                             <div className="service-btn">
                               <div className="img-box-btn">
@@ -113,12 +117,10 @@ export default function Home() {
                     </ul>
                   </div>
                 </div>
-              </div>
-              <div className="row">
-                <div className="col-lg-12 col-md-12">
+                <div className="col-sm-12 col-md-6">
                   <div className="service-box">
                     <ul className="img-box-content">
-                      <li className="img-box-wrap ">
+                      <li className="img-box-wrap" style={{backgroundColor: '#BEBFC5', borderRadius: '10px'}}>
                         <div className="service-img">
                           <img height={618} width={673} className="img-fluid" src="/images/single-img-01.jpg"
                                alt="image"/>
@@ -131,7 +133,9 @@ export default function Home() {
                           </div>
                           <div className="img-box-desc">
                             <div className="content-wrapper">
-                              <p>Tedarik zinciri yönetiminde güvenilir bir çözüm ortağı arıyorsanız, doğru yerdesiniz. İhtiyaçlarınıza özel lojistik çözümleri ve profesyonel destek hizmetleri sunarak iş süreçlerinizi kolaylaştırıyoruz.</p>
+                              <p>Tedarik zinciri yönetiminde güvenilir bir çözüm ortağı arıyorsanız, doğru yerdesiniz.
+                                İhtiyaçlarınıza özel lojistik çözümleri ve profesyonel destek hizmetleri sunarak iş
+                                süreçlerinizi kolaylaştırıyoruz.</p>
                             </div>
                             <div className="img-box-btn">
                               <a href="/hizmetlerimiz/acente-servisi"></a>
@@ -167,7 +171,9 @@ export default function Home() {
                       <h3 className="prt-fid-inner">
                         <span className="count">70% Strateji</span></h3>
                       <p className="prt-fid-title"> Doğru Strateji ile Başarı</p>
-                      <h4 className="prt-fid-desc">Controlist, tekstil sektöründe uzun vadeli başarıyı destekleyen yenilikçi stratejiler sunar. Pazar dinamiklerine uyum sağlama yeteneğimiz, müşterilerimize sürdürülebilir çözümler sağlar.</h4>
+                      <h4 className="prt-fid-desc">Controlist, tekstil sektöründe uzun vadeli başarıyı destekleyen
+                        yenilikçi stratejiler sunar. Pazar dinamiklerine uyum sağlama yeteneğimiz, müşterilerimize
+                        sürdürülebilir çözümler sağlar.</h4>
                     </div>
                   </div>
                 </div>

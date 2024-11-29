@@ -6,7 +6,7 @@
 
 ========================================================================================== */
 
-@import url('https://fonts.googleapis.com/css2?family=Syne:wght@400..800&amp;display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
 
 /**
 
@@ -229,17 +229,17 @@ menu, ol, ul {
 
 /** Typography Variable **/
 :root {
-    --base-bodyfont:"Syne", sans-serif; 
+    --base-bodyfont:"Instrument Sans", sans-serif; 
     --base-bodyfont-Size: 16px;
-    --base-bodyfont-color: #4c4c4c;    
-    --base-skin: #fe9e3f;
+    --base-bodyfont-color: #060616;
+    --base-skin: #FF661D;
     --base-dark: #060616;
-    --base-black: #000000;
-    --base-grey: #f3f3f3;
-    --base-white: #ffffff;
+    --base-black: #F5F5F5;
+    --base-grey: #F5F5F5;
+    --base-white: #060616;
     --base-first-gradientcolor: #fe5603 ;
     --base-second-gradientcolor : #ff7f00;
-    --base-headingfont: "Syne", sans-serif;
+    --base-headingfont: "Instrument Sans", sans-serif;
     --base-headingfont-color: #060616;
     --base-border-radius-10: 10px;
     --base-border-radius-15: 15px;
@@ -250,7 +250,7 @@ menu, ol, ul {
      --base-border-radius-100: 100px;
     --base-border-radius50: 50%;
     --base-border-color: rgba(255 255 255 / 0.10);
-    --base-border-color-white: #ffffff;
+    --base-border-color-white: #060616;
 }
 
 
@@ -263,7 +263,7 @@ menu, ol, ul {
 /** Background Colors **/
 .bg-base-skin { background-color: var(--base-skin);}
 .bg-base-secondskin { background-color: var(--base-secondskin);}
-.bg-base-dark { background-color: var(--base-dark);}
+.bg-base-dark { background-color: var(--base-black);}
 .bg-base-black { background-color: var(--base-black);}
 .bg-base-grey { background-color: var(--base-grey);}
 .bg-base-lightgrey { background-color: var(--base-lightgrey);}
@@ -1062,7 +1062,7 @@ nav.main-menu ul {
 .footer-desc{margin-top: 10px;}
 .widget p,
 .widget.widget_text a{  color: var(--base-white); }
-.widget.widget_text a:hover{  color: var(--base-skin); }
+.widget.widget_text a:hover{  color: var(--base-white); }
 .widget .widget_text-content {
     padding-left: 22px;
 }
@@ -1221,15 +1221,14 @@ ul.prt-list.prt-brand-link li{ display: inline-block; padding: 5px 45px 5px 0; }
 /* ===============================================
     Page-Title-Row
 ------------------------*/
-.prt-page-title-row { 
-    background-image: url(../images/pagetitle-bg.png);
+.prt-page-title-row {
     width: 100%;
     position: relative;
     z-index: 1;
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
-    background-color: var(--base-dark);
+
     overflow: hidden;
 }
 .prt-page-title-row-inner:before{
@@ -1255,7 +1254,6 @@ ul.prt-list.prt-brand-link li{ display: inline-block; padding: 5px 45px 5px 0; }
     width: 100%;
     padding: 175px 0 100px;
    text-align: center;
-    background-color: rgba(0 0 0 / 0.45);
 }
 .prt-page-title-row-inner.style1{
     position: relative;
@@ -1267,7 +1265,6 @@ ul.prt-list.prt-brand-link li{ display: inline-block; padding: 5px 45px 5px 0; }
     font-size: 77px;
     line-height: 90px;
     margin-bottom: 20px;
-    color: var(--base-white);
     font-family: var(--base-headingfont);
     font-weight: 600;
 }

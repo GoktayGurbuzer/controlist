@@ -4,15 +4,15 @@ import matter from 'gray-matter';
 import MdxRenderer from '@/app/components/MdxRenderer'; // Yeni oluşturduğunuz bileşeni içe aktarın
 type tParams = Promise<{ slug: string[] }>;
 
-export default async function Challenge({ params }: { params: tParams }) {
-    const { slug } = await params;
+export default async function Challenge({params}: { params: tParams }) {
+    const {slug} = await params;
 
     // Slug'a göre ilgili dosyayı oku
     const filePath = path.join(process.cwd(), 'content', 'kalite-kontrol-servisi', `${slug}.mdx`);
     const fileContent = fs.readFileSync(filePath, 'utf8');
 
     // MDX dosyasını çözümle
-    const { content, data } = matter(fileContent);
+    const {content, data} = matter(fileContent);
 
     return (
         <>
@@ -27,11 +27,11 @@ export default async function Challenge({ params }: { params: tParams }) {
                                     </div>
                                     <div className="breadcrumb-wrapper">
                                             <span>
-                                                <a title="Anasayfa" href="/">Anasayfa </a>
+                                                <a title="Anasayfa" href="/" style={{ color: "#000"}}>Anasayfa </a>
                                             </span>
                                         <span>
                                                 <a title="Kalite Kontrol Servisi"
-                                                   href="/hizmetlerimiz/kalite-kontrol-servisi">Kalite Kontrol Servisi </a>
+                                                   href="/hizmetlerimiz/kalite-kontrol-servisi" style={{ color: "#000"}}>Kalite Kontrol Servisi </a>
                                             </span>
                                         <span className="action">{data.title}</span>
                                     </div>
